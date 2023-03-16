@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login/Cadastro com animação</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="bbr"></div>
+            <p class="ll">Login</p>
+            <p class="cc">Cadastro</p>
+        </div>
+    </nav>
+    <div class="container">
+        <h1>Login</h1>
+        <form class="login">
+            <div class="form-control">
+                <input type="text" name="" id="email" required class="email-input">
+                <label for="email" class="label">E-mail</label>
+            </div>
+            <div class="form-control">
+                <input type="password" name="" id="senha" required class="senha-input">
+                <label for="senha" class="label">Senha</label>
+            </div>
+            <button class="btn">Entrar</button>
+            <p class="text"> Não possui uma conta? <a href="#">Cadastre-se</a></p>
+        </form>
+        <form class="cadastro none">
+            <div class="form-control">
+                <input type="text" name="" required class="nome-input">
+                <label class="label-cadastro">Nome</label>
+            </div>
+            <div class="form-control">
+                <input type="tel" name="" required class="telefone-input">
+                <label class="label-cadastro">Telefone</label>
+            </div>
+            <div class="form-control">
+                <input type="text" name="" required class="email-input-cadastro">
+                <label class="label-cadastro">E-mail</label>
+            </div>
+            <div class="form-control">
+                <input type="password" name="" required class="senha-input-cadastro">
+                <label class="label-cadastro">Senha</label>
+            </div>
+            <button class="btn button-cadastro">Cadastrar</button>
+            <p class="text"> Já possui conta? <a href="#">Faça o Login!</a></p>
+        </form>
+    </div>
+</body>
+
+</html>
